@@ -36,3 +36,27 @@ buttomAnterior.onclick = function voltarSlide(){
 }
 
 //SEGUNDO CODIGO DE JAVASCRIPT
+
+let mudarimg = document.querySelector(".mudar")
+let imagem = document.querySelector(".mudarlocal img")
+
+mudarimg.onclick = function almentarimg(){
+    if(imagem.classList.contains("local")){
+        imagem.classList.remove("local")
+    }else{
+        imagem.classList.add("local")
+    }
+    console.log(mudarimg)
+}
+
+
+mudarimg.onclick = function() {
+
+    if (imagem.classList.contains("local")) {
+        imagem.classList.remove("local");
+    } else {
+        imagem.classList.add("local");
+    }
+
+}//TERCEIRO CODIGO DE JAVASCRIPT
+

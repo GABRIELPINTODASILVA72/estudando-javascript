@@ -5,7 +5,9 @@
     box-sizing: border-box;
     
 }
-
+body{
+    background-color: darkgray;
+}
 .divpai{
     width: 100%;
     height: 100vh;
@@ -14,6 +16,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 20px;
+    background-color: cadetblue;
 }
 .slider{
     display: flex;
@@ -47,11 +50,32 @@ button{
     padding: 20px;
     font-size: 20px;
     font-weight: 900;
-    border-color:  pink;
+    border-color: pink;
     border-right: pink;
  
     
    
     
+}
+.SegundaDiv {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mudarlocal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.mudarlocal img{
+    border-radius: 10px;
+    transition: all .3s;
+    width: 100px;
+}
+.mudarlocal .local{
+    width: 300px;
 }
 
